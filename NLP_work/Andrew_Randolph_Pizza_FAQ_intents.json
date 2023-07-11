@@ -1,0 +1,78 @@
+{"intents": [
+  {"tag": "greeting",
+    "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+    "responses": ["Hey Poo! Whatcha need?", "Hello! How can I help you?", "Good to see you again! What can I do for you this time?", "Hi there, how can I help?"],
+    "context_set": ""
+  },
+  {"tag": "goodbye",
+    "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+    "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "Have a nice day.... or night :)!"],
+    "context_set": ""
+  },
+  {"tag": "Additional_cost",
+   "patterns": ["How much additional cost is there for online order?", "Is there an additional charge for ordering online?", "Do we have to pay extra for online orders?", "Any additional charges for online orders"],
+   "responses": ["There's an additional 10% charge for online orders", "10 percent extra shall be charged for paying online"],
+   "context_set": ""
+  },
+  {"tag": "Refund",
+   "patterns": ["Can I get a refund on cancellation?", "What is the refund policy for online orders?", "Is there any way to get Refunded while cancelling my order?"],
+   "responses": ["Girl bye.", "sorry. no refunds here!"],
+   "context_set":""
+  },
+  {"tag": "Status",
+   "patterns": ["What's the status of my order?", "Can I know the status of my order?", "what's taking so long?", "Where's my pizza?"],
+   "responses": ["To check the status of your order, please go to the 'Check Status' tab in your app"],
+   "context_set": ""
+  },
+  {"tag": "Delivery",
+   "patterns": ["Do you guys deliver?", "What about delivery?", "Is there a charge for delivery?"],
+   "responses": ["Sorry, we do not deliver :("],
+   "context_set": ""
+ },
+ {"tag": "Careeres",
+   "patterns": ["Are you guys hiring now?", "How much do you guys pay?", "Can I get a job?"],
+   "responses": ["Please check the carrers page on our website"],
+   "context_set": ""
+ },
+ {"tag": "Menu",
+   "patterns": ["Vegan?", "Do you have a vegan option?", "Non-GMO?", "Are you pizzas non-gmo?"],
+   "responses": ["We offer vegan as well as non-GMO options", "yes, we have vegan options"],
+   "context_set": ""
+ },
+ {"tag" : "Change",
+   "patterns": ["Can I change my order?", "How do I change my order?", "Is it too late to change my order?", "Will it cost me to change my order?"],
+   "responses": ["You may change your order, but the price and wait time may increase"],
+   "context_set": ""
+ },
+ {"tag" : "Cancel",
+   "patterns": ["Can I cancel my order?", "How do I cancel my order?", "Is it too late to cancel my order?", "Will it cost me to cancel my order?"],
+   "responses": ["Sorry that you want to canel your order. But, Yes.You may cancel your order", "please call the store to cancel orders"],
+   "context_set": ""
+ },
+ {"tag" : "Discounts",
+   "patterns": ["Can I get a discount?", "What about discounts?", "Discounts available?"],
+   "responses": ["You may use any non-expired discounts"],
+   "context_set": ""
+ },
+ {"tag" : "Gift Card",
+   "patterns": ["Can I check the balance on my gift card?", "Gift card balance?", "Do you offer gift cards?", "How can I purchase a gift card?"],
+   "responses": ["Please check our main website for gift card inquirers", "You can purchase gift cards from our main website"],
+   "context_set": ""
+ },
+ {"tag" : "Problem",
+   "patterns": ["If there's a problem with my order, how can I get it fixed?", "My order is not correct?", "This pizza is cold and nasty?"],
+   "responses": ["If there are problems with your order, please call the store"],
+   "context_set": ""
+ },
+ {"tag" : "Customer Support",
+   "patterns": ["What is the number for customer support?", "Can I speak with a human?", "Is this customer support?", "Is this cs?"],
+   "responses": ["Please check the customer support tab in your app"],
+   "context_set": ""
+ },
+ {"tag" : "receipt",
+   "patterns": ["how do I get a receipt?", "Can you email my receipt?", "Receipt?"],
+   "responses": ["Your receipt will be attached to your order"],
+   "context_set": ""
+ } 
+ ]
+}
